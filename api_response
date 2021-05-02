@@ -1,0 +1,65 @@
+
+
+1. Api for invitation (form data)
+  
+	url : api/sendinvitaion
+	param :
+	email:ahsdf@fhasjf.ocm
+
+	response:
+	{
+    "response": {
+        "email": "ahsdf@fhasjf.ocm",
+        "tokenPin": 13831
+    },
+    "status": null,
+    "status_code": null,
+    "status_message": null
+}
+
+
+2. api for userregistration(form data)
+	
+	url : api/userregistration
+	param :
+	
+	email:ahsdf@fhasjf.ocm
+	tokenpin:13831
+	name:fhadfj
+	user_name:asdfff
+
+	reponse:
+
+	{
+	    "response": {
+		"email": "ahsdf@fhasjf.ocm",
+		"pin": 92022
+	    },
+	    "status": null,
+	    "status_code": null,
+	    "status_message": null
+	}
+
+
+3. api for verify pin
+	url : api/verifyPin
+	param :
+	
+	email:ahsdf@fhasjf.ocm
+	pin:92022
+	
+
+	reponse:
+
+		{
+	    "response": {
+		"email": "kumar92kuldeep@gmail.com",
+		"message": "registered successfully"
+	    },
+	    "status": null,
+	    "status_code": null,
+	    "status_message": null
+	}
+
+
+
